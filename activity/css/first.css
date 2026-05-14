@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(11, 179, 123);
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgb(107, 167, 251);
+}
+
+img {
+    width: 400px;
+    hight: 350px;
+    
+
+}
+
+nav {
+  
+}
+
+body{
+    background-image: url(computer.webp);
+}
+
+main{
+    background-color: aliceblue;
+}
