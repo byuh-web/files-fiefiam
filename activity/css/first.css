@@ -9,12 +9,14 @@ footer{
     background-color: #0eaf79;
     font-size: 20px;
 }
+h1{
+    text-align: center;
+}
 
 img {
     width: 400px;
     hight: 350px;
-    
-
+    margin-left: 50px;
 }
 
 body{
