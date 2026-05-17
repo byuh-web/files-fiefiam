@@ -27,3 +27,8 @@ footer{
     background-color: #c8a451;
 }
 
+ul{
+    list-style-image: url(lol.jpg);
+    font-weight: bolder;
+    color: azure;
+}
