@@ -1,18 +1,29 @@
 body{
     background-image: url(background.jpg);
+        background-repeat: no-repeat;
+
 }
 
-nav{
-    background-color: #ab9807;
-    text-align: center;
-    font-size: 17px;
+.edit{
+    background-image: url(poly.jpg);
+        background-repeat: repeat;
+}
+
+nav a{
+  padding: 15px 15px;
+}
+
+nav a.active {
+  color: white;
+  font-weight: bold;
 }
 
 header{
-    background-color: #ffffff;
+    background-color: #c8a451;
     text-align: center;
 }
 
 footer{
-    background-color: #ffffff;
+    background-color: #c8a451;
 }
+
