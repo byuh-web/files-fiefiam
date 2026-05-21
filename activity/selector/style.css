@@ -1,0 +1,15 @@
+nav a{
+  padding: 20px 50px;
+}
+
+nav a.active {
+  color: white;
+  font-weight: bold;
+}
+header{
+    background-color: #c8a451;
+    text-align: center;
+}
+#list {
+    color:blue;
+}
