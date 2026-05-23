@@ -10,4 +10,12 @@ h2, h3{
     font-family: "Merienda", cursive;
     color: rgb(27, 27, 155);
 }
+nav{
+    padding:px 50px;
+}
+
+.highlights{
+    color:#ef1414;
+    font-weight: bold;
+}
 
