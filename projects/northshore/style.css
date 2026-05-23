@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merienda:wght@300..900&family=Monsieur+La+Doulaise&family=Rouge+Script&display=swap');
+
+body{
+    background-color: #f4ea95;
+}
+header{
+    background-color: #bbb792;
+}
+h2, h3{
+    font-family: "Merienda", cursive;
+    color: rgb(27, 27, 155);
+}
+
