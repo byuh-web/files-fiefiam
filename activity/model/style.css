@@ -1,0 +1,8 @@
+.card {
+    background-color: rgb(113, 235, 86);
+    border: 3px solid navy;  
+    box-sizing: border-box;
+    width: 400px; 
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 24px;
+}
