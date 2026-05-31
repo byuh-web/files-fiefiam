@@ -12,6 +12,12 @@ header{
   font-style: italic;
   padding: 30px;
   text-align: center;
+  border-radius: 10px 10px 0 0;
+
+}
+
+header h1{
+  color: #eeff00;
 }
 
 img{
@@ -40,6 +46,8 @@ div{
   margin: 2rem 2rem auto;
   background-color: #438fce;
   max-height: 1000px;
+  border-radius: 10px;
+
 }
 
 h2{
@@ -52,8 +60,11 @@ p{
 
 .t{
   text-transform: uppercase;
+  color: #eeff00;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.float-r{
+.float{
   float: right;
 }
