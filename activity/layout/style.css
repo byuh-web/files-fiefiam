@@ -54,6 +54,10 @@ p{
   line-height: 150%;
 }
 
+#center{
+  text-align: center;
+}
+
 .t{
   text-transform: uppercase;
   color: #eeff00;
