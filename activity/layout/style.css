@@ -50,7 +50,6 @@ div{
 
 }
 
-
 p{
   line-height: 120%;
 }
@@ -64,4 +63,5 @@ p{
 
 .float{
   float: right;
+  margin: 0 0 30px 0;
 }
