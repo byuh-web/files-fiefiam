@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+}
+
+header{
+    background-color: #7177dc;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+    padding:1px;
+
+}
+nav{
+    background-color: rgb(160, 205, 205);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 10rem 50rem;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+aside{
+    display:grid;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid grew;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 12rem 12rem;
+    justify-items: baseline;
+    gap: 1rem;
+}
+
+.card{
+    text-align: center;
+    background-color: #858ae7;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.size{
+    width:200px;
+    height: 100px;
+}
+
+footer{
+    text-align: center;
+}
