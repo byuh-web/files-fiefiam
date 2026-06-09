@@ -36,9 +36,10 @@ aside{
 
 .container{
     display: grid;
+    align-items: start;
     border: none;
-    grid-template-columns: .5fr 1fr .5fr;
-    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     text-align: center;
     font-family: cursive;
     font-weight: bold;
@@ -46,19 +47,23 @@ aside{
 
 .card{
     text-align: center;
-    background-color: #a97cdd;
+    background-color: #668af6;
     border: 2px solid;
     border-radius: 4px;
 }
 
 .size{
-    width:200px;
-    height: 100px;
+    width:251px;
+    height: 140px;
+}
+
+img{
+    border-radius: 3px 3px 0 0;
 }
 
 footer{
-    background-color: #1f203e;
-    border:2px solid;
+    background-color: #1f243e;
+    border:2px solid black;
     color:#66f9a3;
     text-align: center;
 }
