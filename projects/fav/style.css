@@ -56,6 +56,10 @@ aside{
     border-radius: 3px 3px 0 0;
 }
 
+.left{
+    text-align: left;
+}
+
 footer{
     background-color: #1f243e;
     border:2px solid black;
