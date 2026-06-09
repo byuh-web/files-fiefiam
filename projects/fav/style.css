@@ -1,25 +1,24 @@
 body{
-    margin: auto;
+    background-color: #b8fad4;
 }
-
 header{
     background-color: #1f203e;
+    padding: 2px;
     color: #66f9a3;
-    border: 3px solid black;
     text-align: center;
-    padding:1px;
-
 }
 nav{
     background-color: rgb(160, 205, 205);
+    border: 2px solid black;
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
 
 main{
+    background-color: white;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 30% 70%;
     text-align: center;
 }
 
@@ -37,7 +36,7 @@ aside{
 .container{
     display: grid;
     align-items: start;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     text-align: center;
     font-family: cursive;
