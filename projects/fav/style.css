@@ -3,8 +3,8 @@ body{
 }
 
 header{
-    background-color: #7177dc;
-    color: white;
+    background-color: #1f203e;
+    color: #66f9a3;
     border: 3px solid black;
     text-align: center;
     padding:1px;
@@ -24,28 +24,29 @@ main{
 }
 
 div{
-    display: flex;
+    display: grid;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 aside{
-    display:grid;
+    display:flex;
+    flex-direction: column;
     padding: 25px;
-    border-radius: 8px;
-    border-left: 5px solid grew;
 }
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    align-items: start;
+    border: none;
+    grid-template-columns: .5fr 1fr .5fr;
+    gap: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .card{
     text-align: center;
-    background-color: #858ae7;
+    background-color: #a97cdd;
     border: 2px solid;
     border-radius: 4px;
 }
@@ -56,5 +57,8 @@ aside{
 }
 
 footer{
+    background-color: #1f203e;
+    border:2px solid;
+    color:#66f9a3;
     text-align: center;
 }
