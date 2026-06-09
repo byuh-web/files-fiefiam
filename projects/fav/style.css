@@ -38,9 +38,9 @@ aside{
 
 .container{
     display: grid;
-    grid-template-columns: 12rem 12rem;
-    justify-items: baseline;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
 }
 
 .card{
