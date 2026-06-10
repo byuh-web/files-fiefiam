@@ -2,17 +2,30 @@ body{
     background-color: #b8fad4;
 }
 header{
-    background-color: #1f203e;
+    background-color: #2c4a4a;
     padding: 2px;
     color: #66f9a3;
     text-align: center;
 }
+
 nav{
-    background-color: rgb(160, 205, 205);
-    border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    background-color: #e2edf2;
+    padding: 0.75rem 0;
+}
+
+nav a{
+    color: #2c4a4a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover{
+    background-color: #2c4a4a;
+    color: white;
+    border-radius: 4px;
 }
 
 main{
@@ -36,7 +49,7 @@ aside{
 .container{
     display: grid;
     align-items: start;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     text-align: center;
     font-family: cursive;
@@ -45,7 +58,7 @@ aside{
 
 .card{
     text-align: center;
-    background-color: #668af6;
+    background-color: #079331a5;
     border: 2px solid;
     border-radius: 4px;
 }
@@ -61,7 +74,7 @@ aside{
 }
 
 footer{
-    background-color: #1f243e;
+    background-color: #2c4a4a;
     border:2px solid black;
     color:#66f9a3;
     text-align: center;
