@@ -50,7 +50,7 @@ aside{
     display: grid;
     align-items: start;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 15px;
     text-align: center;
     font-family: cursive;
     font-weight: bold;
@@ -74,8 +74,24 @@ aside{
 }
 
 footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #2c4a4a;
     border:2px solid black;
-    color:#66f9a3;
     text-align: center;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+}
+
+footer a:hover{
+    background-color: #e2edf2;
+    color: #2c4a4a;
+    border-radius: 4px;
+}
+
+
