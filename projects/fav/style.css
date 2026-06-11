@@ -56,6 +56,10 @@ aside{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #079331a5;
     border: 2px solid;
@@ -69,8 +73,8 @@ p{
 }
 
 img{
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     border-radius: auto;
 }
 
