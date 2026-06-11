@@ -80,6 +80,7 @@ img{
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #2c4a4a;
     border:2px solid black;
     text-align: center;
