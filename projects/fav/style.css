@@ -29,30 +29,29 @@ nav a:hover{
 }
 
 main{
-    background-color: white;
     display: grid;
-    grid-template-columns: 30% 70%;
     text-align: center;
+    width: 100%;
 }
 
 div{
     display: grid;
     justify-content: space-around;
 }
+.edit{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
 
 aside{
-    display:flex;
-    flex-direction: column;
     padding: 25px;
 }
 
 .container{
     display: grid;
-    align-items: start;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     text-align: center;
-    font-family: cursive;
     font-weight: bold;
 }
 
@@ -62,11 +61,16 @@ aside{
     border: 2px solid;
     border-radius: 4px;
 }
+p{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 1;
+}
 
-.size{
-    width:251px;
-    height: 140px;
-    border-radius: 3px 3px 0 0;
+img{
+    width: 300px;
+    height: 150px;
+    border-radius: auto;
 }
 
 .left{
