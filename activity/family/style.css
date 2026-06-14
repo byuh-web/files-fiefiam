@@ -46,7 +46,7 @@ main{
 .sidebar{
     display: flex;
     justify-content: center;
-    background-color: #555555;
+    background-color: #cb6a6a;
     padding: 1.5rem;
     border-radius: 4px;
     border: 1px solid #dddddd;
@@ -83,7 +83,7 @@ figcaption{
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     nav{
         flex-direction: column;
         text-align: center;
