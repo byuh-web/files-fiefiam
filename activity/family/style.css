@@ -7,7 +7,6 @@ body{
 img{
     max-width: 100%;
     height: auto;
-    display: block;
     border-radius: 4px;
 }
 
@@ -45,7 +44,7 @@ main{
 
 .sidebar{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: #cb6a6a;
     padding: 1.5rem;
     border-radius: 4px;
