@@ -80,3 +80,24 @@ figcaption{
     font-style: italic;
     margin-top: 0.25; 
 }
+
+
+@media screen and (min-width: 700px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 100%;
+    }
+
+    .wrapped{
+        flex-direction: column;
+    }
+}
