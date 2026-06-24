@@ -1,0 +1,21 @@
+nav a:hover{
+    color: white;
+    background-color: black;
+    padding: 0.5rem 3rem;
+}
+
+nav a{
+    padding:0.5rem 3rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+div{
+    background-color: #dcda4a;
+    margin: 50px;
+}
+
+#color{
+    color: rgb(8, 68, 198);
+}
