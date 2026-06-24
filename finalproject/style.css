@@ -27,5 +27,5 @@ iframe{
 
 #tonga{
     list-style-image: url(tonga.jpg);
-    
+    width: auto;
 }
