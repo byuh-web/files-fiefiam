@@ -91,3 +91,12 @@ form{
     box-shadow: 0 4px 10px #00000026;
     color: #333333;
 }
+.form{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="radio"]{
+    margin-top: 10px;
+    margin-right: 5px;
+}
