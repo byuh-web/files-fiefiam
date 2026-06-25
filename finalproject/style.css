@@ -1,4 +1,8 @@
-nav a{
+body{
+    background-color: rgb(143, 155, 155);
+}
+
+a{
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -12,7 +16,7 @@ nav a:hover{
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #2c4a4a;
+    background-color: #335757;
     border: 1px solid #000000;
     padding: 10px;
 
@@ -38,20 +42,39 @@ ul li{
     align-items: baseline;
 }
 
-main{
+.mainside{
     display: flex;
     flex-direction: column;
     background-color: lightblue;
     padding: 1.5rem;
-    border-radius: 4px;
     align-self: flex-start;
-}
+    text-align: center;
 
+}
+.card{
+    display: grid;
+    background-color: rgb(10, 49, 26);
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+}
 aside{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     flex-direction: column;
-    background-color: #2c4a4a;
     padding: 1.5rem;
-    border-radius: 4px;
     align-self: flex-start;
+}
+footer{
+    background-color: #335757;
+    color: #def2e1;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.edit{
+    width: 200px;
+    height: 250px;
 }
