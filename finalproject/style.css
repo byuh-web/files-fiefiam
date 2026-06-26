@@ -33,6 +33,7 @@ ul li{
     background-repeat: no-repeat;
     background-size: 16px 16px;
     padding-left: 25px;
+    color: wheat;
 }
 .sidebar{
     display: grid;
@@ -41,7 +42,9 @@ ul li{
     flex-direction: row;
     align-items: baseline;
 }
-
+.home{
+    width: 400px;
+}
 .mainside{
     display: flex;
     flex-direction: column;
@@ -106,9 +109,7 @@ input[type="radio"]{
     margin-top: 10px;
     margin-right: 5px;
 }
-tr{
 
-}
 
 table, td, th{
     border: 3px solid black;
@@ -116,8 +117,10 @@ table, td, th{
     background-color: white;
     width: 70%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-h2, p{
+h2,h3,p{
     text-align: center;
 }
 .float{
