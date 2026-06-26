@@ -120,7 +120,7 @@ table, td, th{
     margin-left: auto;
     margin-right: auto;
 }
-h2,h3,p{
+h2,h3,{
     text-align: center;
 }
 .float{
@@ -132,9 +132,11 @@ h2,h3,p{
 .clear{
     clear: both;
 }
-figcaption{
-    font-style: italic;
-}
 img{
     border-radius: 3px;
+}
+
+p{
+    font-style: italic;
+    text-align: center;
 }
