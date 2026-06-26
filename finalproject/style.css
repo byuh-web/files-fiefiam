@@ -64,6 +64,9 @@ ul li{
     font-style: italic;
     margin: 10px;
 }
+.map{
+    color: rgb(198, 225, 140);
+}
 .card{
     display: grid;
     background-color: rgb(10, 49, 26);
