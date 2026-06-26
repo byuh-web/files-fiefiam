@@ -54,6 +54,13 @@ ul li{
 #home{
     background-color: wheat;
 }
+
+.div{
+    border: 2px solid white;
+    color: wheat;
+    font-style: italic;
+    margin: 10px;
+}
 .card{
     display: grid;
     background-color: rgb(10, 49, 26);
